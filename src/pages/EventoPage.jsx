@@ -14,7 +14,7 @@ const EventoPage = () => {
     );
 
     const location = useLocation();
-    const fulLocation = "https://margaritatickets.web.app" + location.pathname;
+    const fulLocation = "https://diaynoche-tickets.web.app" + location.pathname;
 
     return (
         <div className="w-full flex flex-col">
@@ -26,7 +26,7 @@ const EventoPage = () => {
                         <LazyLoadImage
                             className="mx-auto"
                             width={400}
-                            src={"https://storage.googleapis.com/dyntickets.appspot.com/img/eventos/" + evento.data().flyer}
+                            src={"https://storage.googleapis.com/dyn-tickets.appspot.com/img/eventos/" + evento.data().flyer}
                         />
                     </div>
                     <div className="flex w-full flex-col justify-center p-2">

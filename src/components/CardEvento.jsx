@@ -10,7 +10,7 @@ const CardEvento = ({ evento, slug }) => {
             imgAlt={evento.titulo}
             renderImage={() =>
                 <LazyLoadImage
-                    src={"https://storage.googleapis.com/dyntickets.appspot.com/img/eventos/" + evento.flyer}
+                    src={"https://storage.googleapis.com/dyn-tickets.appspot.com/img/eventos/" + evento.flyer}
                 />
             }
         >

@@ -130,7 +130,7 @@ const ConsigueTicket = ({ idEvento, titulo, cantUsuario, qrGenerados, cantidad, 
                         <Modal size="md" show={openModal} onClose={() => setOpenModal(false)} popup>
                             <Modal.Header />
                             <Modal.Body>
-                                <div ref={downRef} className="bg-cover rounded-lg w-auto h-auto overflow-hidden" style={{ backgroundImage: `url('https://storage.googleapis.com/dyntickets.appspot.com/img/eventos/${flyer}')` }}>
+                                <div ref={downRef} className="bg-cover rounded-lg w-auto h-auto overflow-hidden" style={{ backgroundImage: `url('https://storage.googleapis.com/dyn-tickets.appspot.com/img/eventos/${flyer}')` }}>
                                     <div
                                         className="flex w-full flex-col gap-2 items-center text-center backdrop-blur-sm bg-black/30"
                                     >
@@ -150,6 +150,7 @@ const ConsigueTicket = ({ idEvento, titulo, cantUsuario, qrGenerados, cantidad, 
                                                     <span className="text-lg mb-2 mt-2 font-bold text-red-600">QR YA UTILIZADO</span>
                                                 }
                                                 <img src={margaLogoGde} width={250} className="mb-2" />
+                                                <span className="w-fulltext-lg mb-4 font-bold text-white ">Válido hasta las 01:30 Hs.</span>
                                             </>
                                         }
                                     </div>

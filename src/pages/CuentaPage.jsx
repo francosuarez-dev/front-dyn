@@ -15,7 +15,7 @@ const CuentaPage = () => {
     const [signOut] = useSignOut(auth);
     const [updateProfile, updating, errorUpdate] = useUpdateProfile(auth);
     const [displayName, setDisplayName] = useState('Nombre y Apellido');
-    const [initials, setInitials] = useState('MT');
+    const [initials, setInitials] = useState('DyN');
 
     useEffect(() => {
         if (user) {

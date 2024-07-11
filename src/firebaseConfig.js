@@ -10,14 +10,14 @@ import { getAuth } from "firebase/auth";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyAgFZHFtdgbMq_zMN_MbofTbEgh6kigtcU",
-    authDomain: "dyntickets.firebaseapp.com",
-    projectId: "dyntickets",
-    storageBucket: "dyntickets.appspot.com",
-    messagingSenderId: "888696369583",
-    appId: "1:888696369583:web:4ef6cd196b02830a567f5a",
-    measurementId: "G-Q5MD9N15DL"
-  };
+  apiKey: "AIzaSyB3nuzd3PB88kw9o_fWl1nJXxO5opR2fpw",
+  authDomain: "dyn-tickets.firebaseapp.com",
+  projectId: "dyn-tickets",
+  storageBucket: "dyn-tickets.appspot.com",
+  messagingSenderId: "1082114404674",
+  appId: "1:1082114404674:web:1ee743ef632889237258db",
+  measurementId: "G-LXFDZPE1FE"
+};
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
