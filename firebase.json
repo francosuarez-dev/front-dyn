@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "diaynoche-tickets",
     "public": "dist",
     "ignore": [
       "firebase.json",
